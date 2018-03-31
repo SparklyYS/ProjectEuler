@@ -16,4 +16,5 @@ int main()
 	sqsum = sqsum*sqsum;
 	
 	cout << sqsum - sum << endl;
+	return 0;
 }
