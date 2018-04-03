@@ -15,6 +15,7 @@ class BigNum
 public:
 	BigNum() 
 	{
+		memset(num, 0, sizeof(num));
 		len = 0;
 	}
 
